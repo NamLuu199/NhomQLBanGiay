@@ -100,11 +100,13 @@
         </div>
         <!-- end page -->
 
+
         <!-- Vendor js -->
         <script src="/backend/assets/js/vendor.min.js"></script>
 
         <!-- App js -->
         <script src="/backend/assets/js/app.min.js"></script>
+
 
     </body>
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Banner;
 use App\Blog;
 use App\Category;
+use App\OrderDetail;
 use App\Product;
 use App\User;
 use App\Setting;
@@ -20,6 +21,7 @@ class GeneralController extends Controller
 
     public function __construct()
     {
+
         // 1. Lấy dữ liệu - Danh mục sản phẩm
         $categories = Category::where('is_active' ,1)
             ->orderby('position')

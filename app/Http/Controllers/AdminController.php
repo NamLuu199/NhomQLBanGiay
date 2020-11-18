@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use DemeterChain\C;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use App\Admin;
@@ -12,14 +13,47 @@ use App\Notifications\ResetPasswordRequest;
 use App\Order;
 use App\Blog;
 use App\Product;
+use App\OrderDetail;
 use Carbon\Carbon;
-
+use DB;
 use Illuminate\Support\Facades\Auth;
 class AdminController extends AdminGeneralController
 {
 
     public function index()
     {
+
+        $today = Carbon::now();
+        $dates = [];
+        $datesNow=[];
+        $allPrice = [];
+        for($i=1; $i < $today->daysInMonth + 1; ++$i) {
+            $dates[] = \Carbon\Carbon::createFromDate($today->year, $today->month, $i)->format('d-m-Y'); // get all days in month
+        }
+        for($i=1; $i < $today->day + 1; ++$i) {
+            $datesNow[] = \Carbon\Carbon::createFromDate($today->year, $today->month, $i)->format('Y-m-d'); // get days in nows
+        }
+        foreach ($datesNow as $date)
+        {
+            $allPrice[] = OrderDetail::whereDate('created_at','=',$date)->sum('price') ;
+
+        }
+//        $topSellers = DB::table('order_detail')
+//                    ->select('name','image',DB::raw('count(quanty) as quanty'))
+//                    ->groupby('name')
+//                    ->orderBy('quanty','DESC')->limit(5)->toSql();
+//                $topSellers = DB::table('order_detail')
+//                    ->select('name','image','quanty')
+//                    ->groupby('name')
+//                    ->sum('quanty')
+//                    ->orderBy('quanty','DESC')
+//                    ->limit(5)
+//                    ;
+        $topSellers = OrderDetail::selectRaw('name,image,SUM(quanty) as quanty')
+                                ->groupby('name')
+                                ->orderBy('quanty','DESC')
+                                ->limit(7)->get();
+
         $numOrder = Order::count();
         $numBlog = Blog::count();
         $numProduct = Product::count();
@@ -28,7 +62,10 @@ class AdminController extends AdminGeneralController
             'numOrder' => $numOrder,
             'numBlog' => $numBlog,
             'numProduct' => $numProduct,
-            'numUser' => $numUser
+            'numUser' => $numUser,
+            'dates' =>  json_encode($dates),
+            'allPrice' => json_encode($allPrice),
+            'topSellers' => $topSellers
         ]);
     }
     public function login()

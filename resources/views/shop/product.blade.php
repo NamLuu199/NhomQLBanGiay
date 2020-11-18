@@ -32,6 +32,7 @@
                                 <div class="pro-large-img img-zoom ">
                                     <img src="{{ asset($product->image)  }}" alt="product-details" />
                                 </div>
+
                                 @foreach ($image as $item_image)
                                 <div class="pro-large-img img-zoom ">
                                     <img src="{{ asset($item_image->filename)}}" alt="product-details" />

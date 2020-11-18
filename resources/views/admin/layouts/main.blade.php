@@ -23,7 +23,7 @@
         <link href="/backend/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="/backend/assets/css/app.min.css" rel="stylesheet" type="text/css" />
         <link href="/backend/assets/css/style.css" rel="stylesheet" type="text/css" />
-
+        <link href="/backend/assets/css/Chart.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -81,7 +81,8 @@
 
         <!-- App js -->
         <script src="/backend/assets/js/app.min.js"></script>
-
+        <script src="/backend/assets/js/Chart.bundle.min.js"></script>
+        <script src="/backend/assets/js/Chart.min.js"></script>
 
         <!-- Vị trí dùng để chèn code Javascript -->
          @yield('my_javascript')

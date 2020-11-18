@@ -130,6 +130,7 @@ class ShopController extends GeneralController
                 ->whereIn('category_id', $ids)
                 ->orderBy('id', 'desc')
                 ->paginate(9);
+
             $brandsFilter = DB::table('products') // filter Brand
                 ->select('brand_id', 'brands.name')
                 ->distinct()
@@ -137,7 +138,7 @@ class ShopController extends GeneralController
                 ->whereIn('category_id', $ids)
                 ->get();
 
-
+            
             return view('shop.products-by-category', [
                 'category' => $category,
                 'products' => $products,
