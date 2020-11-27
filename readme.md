@@ -1,11 +1,15 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Website Quản Lý Bán Giày
+Với xu hướng hình thức kinh doanh qua mạng hiện nay ngày càng trở lên phổ biến. Hình thức kinh doanh này mang lại rất nhiều lợi ích cho người tiêu dùng cũng như nhà cung cấp
+Nắm bắt được vấn đề đó chúng tôi đã xây dựng 1 website cho phép bán giày dép qua internet. 
+Website được xây dựng chính bằng ngôn ngữ PHP sử dùng framework Laravel version 5.8
+
+## Cách thức clone project về máy
+
+Mở terminal tại máy tính của bạn chạy lệnh
+
+git clone https://github.com/NamLuu199/NhomQLBanGiay.git
+
 
 ## About Laravel
 
@@ -33,7 +37,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[Kirschbaum Development Group](https://kirAbout Laravelschbaumdevelopment.com)**
 - **[64 Robots](https://64robots.com)**
 - **[Cubet Techno Labs](https://cubettech.com)**
 - **[Cyber-Duck](https://cyber-duck.co.uk)**

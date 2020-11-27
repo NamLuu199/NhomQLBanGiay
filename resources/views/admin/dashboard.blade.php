@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-6">
                     <div class="card p-3">
-                    <span class="text-muted text-uppercase font-size-20 font-weight-bold mb-3">Top sản phẩm 07 bán nhiều nhất</span>
+                    <span class="text-muted text-uppercase font-size-20 font-weight-bold mb-3">Top sản phẩm bán nhiều nhất</span>
                     <table>
                         <colgroup>
                             <col span="1" style="width: 15%;">
@@ -120,7 +120,7 @@
     <script>
         var ctx = document.getElementById('myChart');
         const cfg = {
-            type: 'bar',
+            type: 'line',
             data: {
                 labels:  {!! $dates !!},
                 datasets: [{
