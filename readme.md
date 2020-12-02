@@ -55,44 +55,44 @@ git clone https://github.com/NamLuu199/NhomQLBanGiay.git
 
 ### Giao diện người dùng
 ![homepage](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/homepage.png)
-<p align=center>Giao diện trang chủ</p>
+*<p align=center>Giao diện trang chủ</p>*
 
 ![product-by-category](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/product-by-category-page.png)
-<p align=center>Giao diện sản phẩm theo menu</p>
+*<p align=center>Giao diện sản phẩm theo menu</p>*
 
 ![product-detail](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Product-details.png)
-<p align=center>Giao diện chi tiết sản phẩm</p>
+*<p align=center>Giao diện chi tiết sản phẩm</p>*
 
 ![blog](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Blog.png)
-<p align=center>Giao diện trang tin tức</p>
+*<p align=center>Giao diện trang tin tức</p>*
 
 ![cart](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Cart-page.png)
-<p align=center>Giao diện giỏ hàng</p>
+*<p align=center>Giao diện giỏ hàng</p>*
 
 ### Giao diện quản trị viên
 ![dashboard](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Admin-home.png)
-<p align=center>Giao diện trang dashboard</p>
+*<p align=center>Giao diện trang dashboard</p>*
 
 ![order](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Order.png)
-<p align=center>Giao diện quản lý order</p>
+*<p align=center>Giao diện quản lý order</p>*
 
 ![category](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Admin-category.png)
-<p align=center>Giao diện quản lý menu</p>
+*<p align=center>Giao diện quản lý menu</p>*
 
 ![product](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Admin-product.png)
-<p align=center>Giao diện quản lý sản phẩm</p>
+*<p align=center>Giao diện quản lý sản phẩm</p>*
 
 ![banner](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Admin-banner.png)
-<p align=center>Giao diện quản lý banner</p>
+*<p align=center>Giao diện quản lý banner</p>*
 
 ![brand](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Admin-brand.png)
-<p align=center>Giao diện quản lý thương hiệu sản phẩm</p>
+*<p align=center>Giao diện quản lý thương hiệu sản phẩm</p>*
 
 ![blog](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Admin-blog.png)
-<p align=center>Giao diện quản lý tin tức</p>
+*<p align=center>Giao diện quản lý tin tức</p>*
 
 ![user](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/Admin-user.png)
-<p align=center>Giao diện quản lý tài khoản nhân viên</p>
+*<p align=center>Giao diện quản lý tài khoản nhân viên</p>*
 
 ## Liên hệ 
 
