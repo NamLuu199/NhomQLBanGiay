@@ -27,6 +27,7 @@
                         <tbody>
 
                             @foreach($data as $key => $item)
+
                             <tr class="item-{{$item->id}}">
                                 <td>{{++$key}}</td>
                                 <td colspan="2" style="    background: #fad785;">{{$item->name}}</td>

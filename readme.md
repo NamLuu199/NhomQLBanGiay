@@ -7,7 +7,7 @@ Website được xây dựng chính bằng ngôn ngữ PHP sử dùng framework 
 ## Cách thức clone project về máy
 
 Mở terminal tại máy tính của bạn chạy lệnh
-
+![alt text](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/banner/1593342174_2048.webp)
 git clone https://github.com/NamLuu199/NhomQLBanGiay.git
 
 
