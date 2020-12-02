@@ -4,11 +4,61 @@ Với xu hướng hình thức kinh doanh qua mạng hiện nay ngày càng tr�
 Nắm bắt được vấn đề đó chúng tôi đã xây dựng 1 website cho phép bán giày dép qua internet. 
 Website được xây dựng chính bằng ngôn ngữ PHP sử dùng framework Laravel version 5.8
 
+## Yêu cầu hệ thống
+
+Để cài đặt Laravel 5.8 cần 1 số yêu cầu:
+
+- PHP >= 7.3
+- BCMath PHP Extension
+- Ctype PHP Extension
+- Fileinfo PHP Extension
+- JSON PHP Extension
+- Mbstring PHP Extension
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+
+Laravel thuộc sở hữu của [Composer](https://getcomposer.org/). Vì vậy trước khi cài laravel cần cài Composer trên máy tính trước 
+
+## Mô hình MVC trong Laravel
+
+**Model** : Chịu trách nhiệm quản lý dữ liệu, nó lưu trữ và truy xuất các thực thể từ cơ sở dữ liệu như mysql, sql server, postresSQL,… đồng thời chưa các logic được thực thi bởi ứng dụng
+**View** : Chịu trách nhiệm hiển thị dữ liệu đã được truy xuất từ model theo một format nào đó theo ý đồ của lập trình viên. Cách sử dụng của View tương tự như các module templates thường thấy trong các ứng dụng web phổ biến như WordPress, Joomla,…
+**Controller** : Trung gian, làm nhiệm vụ xử lý cho model và view tương tác với nhau. Controller nhận request từ client, sau đó gọi các model để thực hiện các hoạt động được yêu cầu và gửi ra ngoài View. View sẽ chịu trách nhiệm format lại data từ controller gửi ra và trình bày dữ liệu theo 1 định dạng đầu ra (html).
+
+Cách thức hoạt động MVC trong Laravel như hình:
+
+
+
+`User tạo ra một yêu cầu với URL dựa trên ứng dụng.
+Xác định “route” tương ứng với URL của user, chuyển tới controller tương ứng.
+Controller xử lý nghiệp vụ, nếu cần thiết thì truy vấn dữ liệu từ model và trả thông tin cho View
+View cung cấp thông tin trả về cho user`
+
+
+Vị trí:
+- Model: Sẽ được tìm thấy ở thư mục App/[Tên_Model]
+- View:  Sẽ được tìm thấy ở thư mục resources/views/[Tên_View]
+- Controller:  Sẽ được tìm thấy ở thư mục App/Htpp/Controllers/[Tên_Controller]
+- Router: Sẽ được tìm thấy ở thư mục Routes/web.php
+
 ## Cách thức clone project về máy
 
-Mở terminal tại máy tính của bạn chạy lệnh
-![alt text](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/banner/1593342174_2048.webp)
+Mở terminal tại máy tính của bạn chạy lệnh <br>
+```
 git clone https://github.com/NamLuu199/NhomQLBanGiay.git
+```
+
+
+## Screenshoot
+
+
+## Liên hệ 
+
+Họ tên: Lưu Quang Nam<br>
+Email: namlq.mhy@gmail.com<br>
+SĐT: [032.787.4432](tel:0327874432)
 
 
 ## About Laravel

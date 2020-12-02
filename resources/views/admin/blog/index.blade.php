@@ -47,7 +47,7 @@
                                         @endif
                                     </td>
                                     <td>{{ $item->url }}</td>
-                                    <td>{{ $item->username['name']}}</td>
+                                    <td>{{ isset($item->username['name']) ? $item->username['name'] : 'Không'}}</td>
                                     <td>{{ $item->position }}</td>
                                     <td>{{ ($item->is_active == 1) ? 'Hiển thị' : 'Ẩn' }}</td>
 
