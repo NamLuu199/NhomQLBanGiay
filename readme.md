@@ -28,6 +28,7 @@ Laravel thuộc sở hữu của [Composer](https://getcomposer.org/). Vì vậy
 **Controller** : Trung gian, làm nhiệm vụ xử lý cho model và view tương tác với nhau. Controller nhận request từ client, sau đó gọi các model để thực hiện các hoạt động được yêu cầu và gửi ra ngoài View. View sẽ chịu trách nhiệm format lại data từ controller gửi ra và trình bày dữ liệu theo 1 định dạng đầu ra (html).
 
 Cách thức hoạt động MVC trong Laravel như hình:
+![MVC](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/mvc-route-laravel.jpg)
 
 
 
@@ -44,7 +45,6 @@ Vị trí:
 - Router: Sẽ được tìm thấy ở thư mục Routes/web.php
 
 ## Cách thức clone project về máy
-![MVC](https://github.com/NamLuu199/NhomQLBanGiay/blob/master/public/uploads/Capture-project/mvc-route-laravel.jpg)
 Mở terminal tại máy tính của bạn chạy lệnh <br>
 ```
 git clone https://github.com/NamLuu199/NhomQLBanGiay.git
