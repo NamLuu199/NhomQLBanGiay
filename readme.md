@@ -2,7 +2,8 @@
 ## Website Quản Lý Bán Giày
 Với xu hướng hình thức kinh doanh qua mạng hiện nay ngày càng trở lên phổ biến. Hình thức kinh doanh này mang lại rất nhiều lợi ích cho người tiêu dùng cũng như nhà cung cấp
 Nắm bắt được vấn đề đó chúng tôi đã xây dựng 1 website cho phép bán giày dép qua internet. 
-Website được xây dựng chính bằng ngôn ngữ PHP sử dùng framework Laravel version 5.8
+Website được xây dựng chính bằng ngôn ngữ PHP sử dùng framework Laravel version 5.8 <br>
+- **[Truy cập demo chương trình: http://shopquanlygiay.epizy.com/](http://shopquanlygiay.epizy.com/)**
 
 ## Yêu cầu hệ thống
 
@@ -23,8 +24,8 @@ Laravel thuộc sở hữu của [Composer](https://getcomposer.org/). Vì vậy
 
 ## Mô hình MVC trong Laravel
 
-**Model** : Chịu trách nhiệm quản lý dữ liệu, nó lưu trữ và truy xuất các thực thể từ cơ sở dữ liệu như mysql, sql server, postresSQL,… đồng thời chưa các logic được thực thi bởi ứng dụng
-**View** : Chịu trách nhiệm hiển thị dữ liệu đã được truy xuất từ model theo một format nào đó theo ý đồ của lập trình viên. Cách sử dụng của View tương tự như các module templates thường thấy trong các ứng dụng web phổ biến như WordPress, Joomla,…
+**Model** : Chịu trách nhiệm quản lý dữ liệu, nó lưu trữ và truy xuất các thực thể từ cơ sở dữ liệu như mysql, sql server, postresSQL,… đồng thời chưa các logic được thực thi bởi ứng dụng<br>
+**View** : Chịu trách nhiệm hiển thị dữ liệu đã được truy xuất từ model theo một format nào đó theo ý đồ của lập trình viên. Cách sử dụng của View tương tự như các module templates thường thấy trong các ứng dụng web phổ biến như WordPress, Joomla,…<br>
 **Controller** : Trung gian, làm nhiệm vụ xử lý cho model và view tương tác với nhau. Controller nhận request từ client, sau đó gọi các model để thực hiện các hoạt động được yêu cầu và gửi ra ngoài View. View sẽ chịu trách nhiệm format lại data từ controller gửi ra và trình bày dữ liệu theo 1 định dạng đầu ra (html).
 
 Cách thức hoạt động MVC trong Laravel như hình:
