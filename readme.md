@@ -4,6 +4,9 @@ Với xu hướng hình thức kinh doanh qua mạng hiện nay ngày càng tr�
 Nắm bắt được vấn đề đó chúng tôi đã xây dựng 1 website cho phép bán giày dép qua internet. 
 Website được xây dựng chính bằng ngôn ngữ PHP sử dùng framework Laravel version 5.8 <br>
 - **[Truy cập demo chương trình: http://shopquanlygiay.epizy.com/](http://shopquanlygiay.epizy.com/)**
+Account admin
+Username: admin@gmail.com
+Password: admin123
 
 ## Yêu cầu hệ thống
 
